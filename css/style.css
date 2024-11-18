@@ -1,0 +1,68 @@
+
+.baixo-peso{
+    color:#87c83b ;
+}
+.peso-normal{
+    color: #c2da13;
+}
+.sobrepeso{
+    color: #fca808;
+}
+.obesidade{
+    color: #f60808;
+}
+
+.alert-result{
+    display: none;
+    text-decoration: none;
+
+    p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.icon-browser{
+    display: none;
+}
+.container{
+    min-height: 100vh;
+}
+#footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    color: #fff;
+    overflow: hidden;
+    opacity: 95%;
+
+    a{
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+
+.countryIcons{
+    width: 30px;
+    height: 30px;
+}
+#clipboard-copy:hover{
+    color: #248659;
+    transition: all ease-in-out 0.3s;
+}
+.bi-check-lg{
+    color: #248659;
+}

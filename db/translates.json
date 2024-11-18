@@ -1,0 +1,58 @@
+{
+    "pt": {
+      "title": "Calculadora - <strong>IMC</strong>",
+      "cardTHeaderTitle": "IMC",
+      "cardTitle": "Insira seu <strong>Peso</strong> e <strong>Altura</strong>",
+      "placeholderWeigth": "Insira seu Peso",
+      "labelWeigth": "Insira seu Peso",
+      "placeholderHeigth": "Insira sua Altura",
+      "labelHeigth": "Insira sua Altura",
+      "buttonCalc": "Calcular",
+      "invalidFeedbackWeigth": "Insira seu Peso",
+      "invalidFeedbackHeigth": "Insira sua Altura",
+      "languageSelected": "<img class=\"countryIcons\" src=\"./assets/brasil.png\" alt=\"Brasil\"></a>",
+      "imcTitle": "O seu IMC é:",
+      "weightDescription": {
+        "LOW": "<p>Seu <strong>IMC</strong> está <strong>ABAIXO</strong> do recomendado. Isso pode indicar baixo peso, o que pode estar relacionado à falta de nutrientes essenciais para o corpo. Uma alimentação equilibrada e acompanhamento com um profissional de saúde podem ajudar a alcançar um peso mais saudável.</p>",
+        "NORMAL": "<p>Seu <strong>IMC</strong>  está dentro da faixa <strong>NORMAL</strong>! Isso indica que você mantém um equilíbrio saudável entre peso e altura, o que é ótimo para sua saúde. Continue com bons hábitos alimentares e uma rotina de atividades físicas para manter esse equilíbrio.</p>",
+        "OVERWEIGHT": "<p>Seu <strong>IMC</strong>  indica <strong>SOBREPESO</strong>  o que pode ser um sinal de que é preciso ajustar alguns hábitos. Pequenas mudanças, como uma alimentação balanceada e prática regular de atividades físicas, podem ajudar a alcançar um peso mais saudável. Consulte um profissional de saúde para orientações personalizadas.</p>",
+        "OBESE": "<p>Seu <strong>IMC</strong>  está na faixa da <strong>OBESIDADE</strong>. Isso pode aumentar os riscos para a saúde, mas com apoio profissional e mudanças graduais na alimentação e nos hábitos de vida, é possível melhorar sua qualidade de vida e bem-estar. Considere o acompanhamento de um especialista para alcançar um peso mais saudável.</p>"
+      },
+      "weightTranslate": {
+        "LOW": "BAIXO",
+        "NORMAL": "NORMAL",
+        "OVERWEIGHT": "SOBREPESO",
+        "OBESE": "OBESO"
+      },
+      "copyTooltip": "Copiar",
+      "copiedTooltip": "Copiado"
+    },
+    "en": {
+      "title": "<strong>BMI</strong> - Calculator",
+      "cardTHeaderTitle": "BMI",
+      "cardTitle": "Insert your <strong>Weigth</strong> and <strong>Heigth</strong>",
+      "placeholderWeigth": "Insert your Weigth",
+      "labelWeigth": "Insert your Weigth",
+      "placeholderHeigth": "Insert your Heigth",
+      "labelHeigth": "Insert your Heigth",
+      "buttonCalc": "Calc",
+      "invalidFeedbackWeigth": "Insert your Weigth",
+      "invalidFeedbackHeigth": "Insert your Heigth",
+      "languageSelected": "<img class=\"countryIcons\" src=\"./assets/estados-unidos.png\" alt=\"usa\">",
+      "imcTitle": "Your BMI is:",
+      "weightDescription": {
+        "LOW": "<p>Your <strong>BMI</strong> is <strong>BELOW</strong> the recommended range. This may indicate low weight, which can be related to a lack of essential nutrients for the body. A balanced diet and guidance from a healthcare professional can help achieve a healthier weight.</p>",
+        "NORMAL": "<p>Your <strong>BMI</strong> is within the <strong>NORMAL</strong> range! This indicates you maintain a healthy balance between weight and height, which is great for your health. Continue with good eating habits and a regular physical activity routine to maintain this balance.</p>",
+        "OVERWEIGHT": "<p>Your <strong>BMI</strong> indicates <strong>OVERWEIGHT</strong>, which may be a sign that some habits need adjustment. Small changes, like a balanced diet and regular physical activity, can help achieve a healthier weight. Consult a healthcare professional for personalized guidance.</p>",
+        "OBESE": "<p>Your <strong>BMI</strong> is in the <strong>OBESITY</strong> range. This may increase health risks, but with professional support and gradual changes in diet and lifestyle habits, it is possible to improve your quality of life and well-being. Consider consulting a specialist to reach a healthier weight.</p>"
+      },
+      "weightTranslate": {
+        "LOW": "LOW",
+        "NORMAL": "NORMAL",
+        "OVERWEIGHT": "OVERWEIGHT",
+        "OBESE": "OBESE"
+      },
+      "copyTooltip": "Copy",
+      "copiedTooltip": "Copied"
+    }
+  }

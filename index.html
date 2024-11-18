@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/bmi.png">
+    <title></title>
+</head>
+
+<body>
+    <nav class="navbar d-flex  bg-success nav-imc">
+        <div class="container-fluid w-50">
+            <a id="navTitle" class="navbar-brand link-light" href="#"></a>
+        </div>
+        <div class="dropdown d-flex justify-content-end m-auto">
+            <a id="languageSelected" class="btn btn-success dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+
+            </a>
+
+            <ul id="countriesDrop" class="dropdown-menu">
+                <li><a id="pt" class="dropdown-item" href="#"><img class="countryIcons" src="./assets/brasil.png"
+                            alt="Brasil"> pt-BR</a></li>
+                <li><a id="en" class="dropdown-item" href="#"><img class="countryIcons"
+                            src="./assets/estados-unidos.png" alt="usa"> en-US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container w-100 d-flex justify-content-center">
+
+        <form class="w-50 needs-validation" novalidate>
+
+            <div class="card mt-5 w-100">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 id="cardTHeaderTitle" class="m-0 p-0"></h5>
+                    <i class="bi icon-browser"></i>
+                </div>
+                <div class="card-body">
+                    <h5 id="cardTitle" class="card-title"></h5>
+                    <div class="form-floating mb-3 mb-3">
+                        <input type="number" id="peso" class="form-control" min="1" step="0.01" required>
+                        <label id="labelWeigth" for="floatingInput"></label>
+                        <div id="invalidFeedbackWeigth" class="invalid-feedback"></div>
+
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" id="altura" class="form-control" aria-describedby="inputGroup-sizing-sm"
+                            min="1" step="0.01" required>
+                        <label id="labelHeigth" for="floatingInput"></label>
+                        <div id="invalidFeedbackHeigth" class="invalid-feedback"></div>
+                    </div>
+
+                    <a class="btn btn-success mb-2 w-100" id="calcular" data-bs-target="#collapseExample"></a>
+                    <a class="alert alert-result alert-dismissible fade show" role="alert" data-bs-toggle="collapse"
+                        href="#collapseExample">
+                        <p id="imcTitle"><span id="resultado"></span></p>
+                        <button type="button" class="btn-close alert-button-result"></button>
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        
+                        <div class="card card-body" id="collapseTextExample">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </main>
+
+    <footer id="footer" class="bg-success text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright: <a href="https://github.com/luanraffaell" target="_blank" rel="noopener noreferrer">
+                Luan Rafael <i class="bi bi-github"></i>
+            </a>
+
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
